@@ -1,0 +1,45 @@
+{
+    "quotes": [{
+            "Title": "Matthew 12:50",
+            "Source":"images/city.JPG",
+            "id": 1,
+            "desc": "For whoever does the will of my Father in heaven is my brother and sister and mother."
+        },
+        {
+            "Title": "Matthew 4:19 ",
+            "Source":"images/arch.JPG",
+            "id": 2,
+            "desc": "Come, follow me, and I will send you out to fish for people."
+        },
+        {
+            "Title": "John 14:6",
+            "Source":"images/cake.jpg",
+            "id": 3,
+            "desc": "I am the way and the truth and the life. No one comes to the Father except through me."
+        },
+        {
+            "Title": "Matthew 6:34",
+            "Source":"images/snow.JPG",
+            "id":4,
+            "desc": "Do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."
+
+        },
+        {
+            "Title": "Matthew 5:10 ",
+            "Source":"images/mashrooms.JPG",
+            "id":5,
+            "desc": "Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven."
+        },
+        {
+            "Title": "Matthew 19:14 ",
+            "Source":"images/music.jpg",
+            "id":6,
+            "desc": "Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these."
+        },
+        {
+            "Title": "Matthew 5:16",
+            "Source":"images/sea.JPG",
+            "id":7,
+            "desc": "In the same way, let your light shine before others, that they may see your good deeds and glorify your Father in heaven."
+        }]
+}

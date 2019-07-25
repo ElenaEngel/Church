@@ -1,0 +1,1380 @@
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+   float:left;
+ margin: 0;
+    padding: 0;
+  
+      .dropdown .a_white .dropbtn {
+    float: none;
+    width: 100%;
+  }
+  .header1 .header2 .header3 .header4 .header5 {
+      width:100%;
+ 
+      
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+        .demo {display: none;}
+  .dropdown {display: none;}
+  .dropdown.icon {
+    top: 0;
+    right:0;
+    display: block;
+  font-size: 24px;
+  color:black}
+ 
+  .dropdown-content1 {position: relative;
+  }
+   #myDIV{
+      display:none;
+  } 
+   
+    
+  #divImage{
+    background-size:cover;
+    background-attachment: scroll;
+  }
+    .li1{
+        float:none;
+    }
+    .header1 .header2 .header3 .header4 .header5 {
+      width:100%;
+ 
+      
+  }
+}
+
+  /*@media screen and (max-width: 450px) {
+ .ul3 .ul4 .container4 p * {
+ line-height: 1;
+ text-align: left;
+ font-size:80%;}
+  
+
+
+@media screen and (max-width: 600px) {
+  nav.topnav.responsive {position: relative;}
+  nav.topnav.responsive  .dropdown.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+}*/
+  
+@media screen and (max-width: 700px)
+{.demo {display: none;}}
+
+
+@media only screen and (min-width: 601px)/*and (-webkit-min-device-pixel-ratio:0)*/{
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+     .icon {
+  display: none;
+     }
+     
+  #myDIV{
+      display:none;
+  } 
+
+  .header1 .header2 .header3 .header4 .header5 {
+      width:100%;     
+  }
+}
+@media only screen and (min-width: 601px) and (orientation: portrait)/*and (-webkit-min-device-pixel-ratio:0)*/{
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+     .icon {
+  display: none;
+     }
+     
+  #myDIV{
+      display:none;
+  } 
+ .demo {display: none;}
+  .header1 .header2 .header3 .header4 .header5 {
+      width:100%;
+ 
+      
+  }
+}
+/*@media only screen and (min-width: 601px) and (orientation: portrait) and (max-width: 767px){
+ .demo {display: none;}
+     .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}*/
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+ 
+}
+
+   /* .dropdown .a_white .dropbtn {
+    float: none;
+    width: 100%;
+}*/
+  * {
+    box-sizing: border-box;
+}
+/*#myDIV
+  {display:block;
+  position: relative;
+  width:100%;}
+  */
+body {background-image:url('gold_bamboo_wallpaper_tileable.jpg');
+background-size:;
+padding:10px;
+margin:0;
+
+}
+.container7 {
+    background:beige;
+    padding:20px; 
+    margin-top:20px;
+}
+
+.thumbnail {
+    margin:0 auto;      
+    padding: 30px;
+    border: none;
+    border-radius: 0;
+    text-align:center;
+ background:white;
+    width:80%;
+}
+
+.thumbnail img {
+   
+    width: 100%;
+    max-width:200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+  .ul1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+.li1 {display: block;
+
+  float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ transition: transform .2s;
+
+}
+
+.li1 img{
+    width:150px;
+    height:90px;
+   
+}
+.li1:hover{
+   -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+ .ul2{list-style-type:none;
+   display:block;
+   margin: 0 auto;
+  }
+  /*.ul2 > .li2::before {   
+    content: '';   
+    display: inline-block;   
+    height: 30px;   
+    width: 30px;    
+    background-size: 30px;   
+    background-image: url('cross.png'); 
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+}*/
+  
+.li2 a {text-decoration: none;
+        font-size: 120%;
+    font-family: Georgia;
+    color:black;
+  line-height: 3;
+  text-align: center;
+ /* text-shadow: 3px 3px 8px black, 0 0 15px red, 0 0 5px blue;*/
+  font-weight: bold;
+     
+    
+     
+}
+.li2 a:hover{
+    text-decoration: underline;
+}
+.ul3 {
+    list-style-type: none;
+    font-family: Georgia;
+    font-size: 120%;
+        line-height: 200%;
+  text-align: left;    
+            
+}
+.ul3 > .li3::before {   
+    content: '';   
+    display: inline-block;   
+    height: 30px;   
+    width: 30px;    
+    background-size: 30px;   
+    background-image: url('loaders.gif'); 
+   background-repeat: no-repeat;  
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+
+}
+
+.li3 a {text-decoration: none;
+    font-family: Georgia;
+    font-size: 120%;
+  line-height: 200%;
+  text-align: left;
+  /*padding:10px 40px;*/
+  color:black;
+     
+}
+.li3 a:hover{
+    text-decoration: underline;
+}
+.ul4 {
+    list-style-type: circle;
+    font-family: Georgia;
+      text-align: left;
+    line-height: 200%;
+    font-size: 120%;
+            
+}
+
+.li4 a {text-decoration: none;
+    font-family: Georgia;
+    font-size: 120%;
+  line-height: 200%;
+  text-align: left;
+  color:black;
+     
+}
+.li4 a:hover{
+    text-decoration: underline;
+}
+
+.header1 #dvImage{  
+     height: auto;
+      width:100%;
+
+  
+text-align:center; 
+font-family:TriodPostnaja;
+
+position:relative;
+
+height: 100%;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+
+  color:#ffffff;}
+  #dvImage{  
+      height: auto;
+      width:100%;
+  
+text-align:center; 
+font-family:TriodPostnaja;
+
+position:relative;
+
+ height: 800px;
+height: 800px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    
+
+  color:#ffffff;}
+
+.a_black1 {color:white;text-decoration:none;}
+.a_black1:hover {color:black;text-decoration:none;text-shadow:none;}
+
+.a_black {color:white;text-decoration:none;}
+a:hover {color:darkred;text-decoration:none;text-shadow:none;}
+a:active {color:black;text-decoration:none;}
+
+
+.header2 {background-image:url('service.jpg');
+
+          position:relative;
+text-align:right; 
+font-family:TriodPostnaja;
+ 
+height: auto;
+ height: 700px;
+ width : 100%;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+   background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+   background-size: cover;
+  color:#ffffff;}
+
+  .header3 {background-image:url('SLC_consecration0.JPG');
+             height: auto;
+      width:100%;
+  
+text-align:center; 
+font-family:TriodPostnaja;
+height: 700px;
+position:relative;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+
+  color:#ffffff;}
+
+  .header4 {background-image:url('communion.jpg');
+width : 100%;
+height : 100%;
+text-align:right; 
+font-family:TriodPostnaja;
+
+ height: 700px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  color:#ffffff;}
+
+  .header5 {background-image:url('30741196_10157245815828056_4782032951191797760_o.jpg');
+text-align:right; 
+font-family:TriodPostnaja;
+
+ height: 700px;
+ width : 100%;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  color:#ffffff;}
+
+ .header6 {background-image:url('church2.jpg');
+text-align:right; 
+font-family:TriodPostnaja;
+ 
+ height: 700px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat *
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  color:#ffffff;}
+ 
+ .header7 {background-image:url('wedding.jpg');
+text-align:right; 
+font-family:TriodPostnaja; 
+ height: 700px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  color:#ffffff;}
+ 
+ 
+ 
+.header8 {background-image:url('books.jpg');
+text-align:right; 
+font-family:TriodPostnaja;
+ 
+ height: 700px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  color:#ffffff;}
+ 
+ 
+aside {margin: 5px 0px; 
+ 
+}
+.row:after {
+  content: "";
+    display: table;
+    clear: both;}
+
+    .flex-container {
+  display: flex;
+   flex-wrap: wrap;
+  
+}
+
+.flex-container > div {
+  margin: 10px;
+}
+
+.container{ <script language="Javascript">print_img();
+ 
+  height: auto;
+ 
+
+}
+.container1 {
+ 
+  width: 100%;
+margin-top: 0px;
+}
+
+.imggif{
+
+  margin-right: ;}
+
+.container4
+
+{
+    max-width: 1000px;
+ display: block;
+ /* margin-top:10px;
+margin-bottom:10px;
+margin-left:auto;
+margin-right:auto;*/
+ margin: auto;
+    font-size: 0,5%;
+  font-family: Georgia;
+  font-size:120%;
+  line-height: 2;
+  text-align: justify;
+  padding:10px 40px;
+     /*display:inline-block example*/
+   /*display:inline-block;*/
+
+    /*height example*/
+    height: auto;
+
+    background-color: #FFF8DC;
+     box-shadow: 5px 10px 18px black;   
+}
+
+.container5{ 
+ display: block;
+ /* margin-top:10px;
+margin-bottom:10px;
+margin-left:auto;
+margin-right:auto;*/
+ width:90%;
+ margin:0 auto;
+  text-align: justify;
+  padding:10px 10px;
+     /*display:inline-block example*/
+   /*display:inline-block;*/
+
+    /*height example*/
+    height: auto;
+
+   /* background-image:url('book.png');*/
+     background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    background-size: contain;
+   
+}
+
+.container3
+{
+  background:linear-gradient (to top, rgb(54, 25, 25), rgb(54, 25, 25, 0.5), rgb(54, 25, 25, 0.0));
+
+ position:absolute;
+  left:5px;
+bottom:0px;
+  overflow:auto;
+ 
+ /* width:80%;
+ height:250px;*/
+ text-align: center;
+
+
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: Georgia;
+  color: grey;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Georgia;
+  color: grey;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+#contact .textarea1 {
+  height: 60px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: darkred;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#contact button[type="submit"]:hover {
+  background: red;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+  .button1 {
+   display: block;
+      margin: auto;
+    width: 30%;
+ 
+background-color: grey; /* Green */
+    border: none;
+    color: white;
+
+
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+   
+  
+   transition: all 0.5s;
+    cursor: pointer;
+  
+   
+  }
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.borderimage { 
+  /*border-image example*/
+    border-style: solid;
+    border-width:40px;
+    padding: 10px;
+    -webkit-border-image: url('th0R3890Y7.jpg') 30 round; /* Safari 3.1-5 */
+    -o-border-image: url('th0R3890Y7.jpg') 30 round; /* Opera 11-12.1 */
+    -moz-border-image:url('th0R3890Y7.jpg') 30 round;
+    border-image: url('th0R3890Y7.jpg') 30 round;
+    margin-top:20px; background-color:white;
+    position:relative;
+
+
+}
+/*Horisontal navigation bar style*/
+/*box model*/
+    .topnav{
+    font-family:TriodPostnaja;
+
+    margin: 0;
+    padding: 0;
+    overflow:visible;
+
+top:0px;
+ background-color: rgb(54, 25, 25, 0.5) ;
+height:100px;
+
+} 
+
+.dropdown{
+  /*float example*/
+    font-family:TriodPostnaja;
+
+ float:left;
+ /*padding example*/
+  padding-left: 4%;
+    /*padding-right:2%;*/
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+
+   /*float example*/
+.a_white {
+
+    float:left;
+    text-align: center;
+    /*padding example*/
+    padding-left: 4%;
+    padding-right:2%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+   }
+   .a_white:hover{
+   /* display: block;
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+background-color: #ddd;
+  text-align: left;
+padding: 12px 16px;*/
+
+  color: black;
+   /*padding example*/
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display example*/
+  display: block;
+  /*align example*/
+  text-align: left;
+  background-color: #ddd;
+  position:relative;
+
+   }
+  .dropbtn {
+    /*float example*/
+    float:right;
+    /*align example*/
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    background-color: inherit;
+    /*border example*/
+    border: none;
+    /*outline example*/
+  outline: none;
+    text-decoration: none;
+     font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; 
+}
+.dropdown-content {
+  display: none;
+  /*position:absolute example*/
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+  
+  /*Combinator, all "a" elmenets within this class will have following properties */
+
+  div.dropdown-content a {
+float:none;
+  color: black;
+   /*padding example*/
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display example*/
+  display: block;
+  /*align example*/
+  text-align: left;
+}
+ div.dropdown-content1 a {
+float:none;
+  color: red;
+   /*padding example*/
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display example*/
+  display: block;
+  /*align example*/
+  text-align: left;
+}
+
+/*Pseudo-class*/
+.dropdown-content a:hover {
+  background-color: #ddd;}
+  .dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+
+.nav1{    list-style-type: none;
+
+    font-family:TriodPostnaja;
+
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+
+
+} 
+.dropdown1{
+  /*float example*/
+    font-family:TriodPostnaja;
+padding:5px;
+color:red;
+  
+ /*padding example*/
+ 
+    
+}
+
+
+   /*float example*/
+.a_white {
+
+    float:left;
+    text-align: center;
+    /*padding example*/
+    padding-left: 4%;
+    padding-right:2%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+   }
+   /*.a_white:hover{
+   display: block;
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+background-color: #ddd;
+  text-align: left;
+padding: 12px 16px;
+
+  position:relative;
+
+   }*/
+  .dropbtn1 {
+    /*float example*/
+   
+    /*align example*/
+    background-color: grey;
+    width:100%;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    padding:5px;
+    /*border example*/
+    border: none;
+    /*outline example*/
+    outline: none;
+    text-decoration: none;
+     font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; 
+}
+.dropdown-content1 {
+  display: none;
+  /*position:absolute example*/
+
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+  
+  /*Combinator, all "a" elmenets within this class will have following properties */
+
+  div.dropdown-content1 a {
+float:none;
+  color: darkred;
+   /*padding example*/
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display example*/
+  display: block;
+  /*align example*/
+  text-align: center;
+}
+
+/*Pseudo-class*/
+.dropdown-content1 a:hover {
+  background-color: #ddd;}
+ 
+  .dropdown1:hover .dropdown-content1 {
+  display: block;
+  
+} 
+
+
+.column1 {
+
+background: linear-gradient(grey, #3399ff);
+
+    /*margin example*/
+
+height:450px;
+    
+    font-family: Garamond;
+    color:white;
+    margin-top:20px;
+     margin-bottom:10px;
+      padding: 10px; 
+
+}
+
+    .column2 {
+  /*float:left;*/
+    padding: 10px; 
+    font-family: Georgia;
+    font-size: 120%;
+   height: auto;
+   /*background-color: #FFF8DC;*/
+  margin-bottom:20px;
+  margin-top:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+     /*border:  5px solid transparent;
+    
+      border-style: solid;
+    border-width:5px;
+
+    border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
+    -webkit-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Safari 3.1-5 */
+    /*-o-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Opera 11-12.1 */
+    /*-moz-border-image:url('gold_bamboo_wallpaper_tileable.jpg') 30 round;*/
+  
+}
+
+   .column3 {
+  /*float:left;*/
+   /*padding example*/
+    padding: 10px; 
+     /*display:inline-block example*/
+   /*display:inline-block;*/
+    font-family: Georgia;
+    font-size: 120%;
+     height:auto;
+    /*height example*/
+    height: 600px;
+     margin-bottom:10px;
+   margin-top:20px;
+
+ 
+
+}
+
+
+  .left3 {
+
+  /*width/height example*/
+  overflow:auto;
+  
+     border: 5px solid grey;
+     margin-right: 5px;
+  
+ 
+}
+.right3{
+
+   margin-left: 5px;
+    padding: 10px; 
+    overflow:auto;
+     border: 5px solid transparent;
+      border-style: solid;
+    border-width: 5px;
+    border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
+    -webkit-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Safari 3.1-5 */
+    -o-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Opera 11-12.1 */
+    -moz-border-image:url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
+     background-color: #FFF8DC;}
+
+     .right4
+
+     {display:block;
+      margin:auto;
+      width:80%;
+      max-width: 250px;
+    font-family: Georgia;
+    font-size: 120%;
+      padding: 5px; 
+    overflow:auto;
+    border: 5px solid transparent;
+     border-style: solid;
+    border-width: 5px;
+    border-color: white;
+     background-color: ;
+     background: linear-gradient(lightgrey, #66b3ff);
+     color:black;
+     height:auto;
+   }
+
+
+  .left1, .right1, .middle1 {
+  /*width/height example*/
+     /*padding example*/
+  padding:10px;
+ 
+  overflow: auto;
+background: linear-gradient(grey, #3399ff);
+ 
+}
+.middle1 {
+  /*border example*/
+  border-left: 2px dotted black;
+  border-right:2px dotted black;
+  /*width:height example*/
+}
+    
+h5.1{font-family:TriodPostnaja;
+text-align: center;}
+
+
+
+
+
+.left2, .right2, .middle2 {
+
+    /* border: 5px solid transparent;*/
+     border-width: 5px;
+     border-style: solid;
+     border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
+    -webkit-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Safari 3.1-5 */
+    -o-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Opera 11-12.1 */
+    -moz-border-image:url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
+
+    background-color: #FFF8DC;
+
+}
+
+.left2, .middle2
+{
+  /*margin-right:30px;*/}
+
+
+.divImage {
+
+}
+h2 { text-align: center;
+  color:red;
+  font-family:TriodPostnaja;
+
+}
+h2.h2 { text-align: left;
+  color:white;
+  font-family:TriodPostnaja;
+
+}
+h2.h3 { text-align: center;
+  color:white;
+  font-family:TriodPostnaja;
+
+}
+
+h3.h3 { text-align: center;
+  color:red;
+  font-family:TriodPostnaja;
+
+}
+
+p.first {
+    font-size: 120%;
+   font-weight:500;
+    font-family: Georgia;
+  line-height: 300%;
+  text-align: center;
+  padding:10px 40px;
+}
+p.sixth {
+    font-size: 120%;
+    font-family: Georgia;
+  line-height: 200%;
+  text-align: justify;
+  padding:10px 40px;
+}
+
+p.third {
+  font-size: 120%;
+
+  line-height:3 ;
+  text-align: center;
+  padding:5px;
+  font-family: Georgia;
+
+}
+
+p.seventh{font-size: 120%;
+  font-family: Georgia;
+  line-height: 2;
+  text-align: justify;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   letter-spacing: 1px;
+/*padding-left:10px;
+padding-right:10px;*/
+}
+
+  
+
+p.second {
+ 
+  font-family: Georgia;
+  line-height: 2;
+  text-align: center;
+  padding:10px;
+   height:300px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+
+}
+
+p.second1 {
+ 
+  font-size: 120%;
+  font-family: Georgia;
+  line-height: 2;
+  text-align: center;
+  padding:10px;
+   overflow: hidden;}
+
+
+/*Pseudo-element*/
+
+
+   
+
+p.fourth{
+  font-size: 120%;
+  font-family: Georgia;
+  line-height: 1,5;
+  text-align: center;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   letter-spacing: 1px;
+
+
+}
+
+p.fifth{
+  font-size: 120%;
+  font-family: TriodPostnaja;
+  line-height: 2;
+  text-align: right;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   color: white;
+   padding:20px;
+   
+
+}
+.div10 {background-image:url('http://i66.tinypic.com/do2xz8.jpg');
+  height:auto;      
+height: 700px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    width:100%;
+
+}
+
+.footer{background-image: url('plain-red-wallpaper-120-166-hd-wallpapers.jpg') ; 
+height:auto;
+width: 100%;
+overflow:auto;
+ 
+}
+
+.back-to-top {
+    right:50%;
+    position: fixed;
+    bottom: 2em;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+
+
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
