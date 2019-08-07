@@ -46,7 +46,7 @@
         ?>
             <form id="contact" class="contact-form" action="contactrussian.php" method="post">
                 <div class="js-beforeHeaderContactForm">
-                    <h3>Пожалуйста, свяжитесь с нами!</h3>
+                    <h3 class="contact-form__title">Пожалуйста, свяжитесь с нами!</h3>
                     <h4>Здесь Вы можете задать вопрос архипристу Михаилу или отправить запрос на специальное богослужение.</h4>
                 </div>
                 <div class="js-afterHeaderContactForm d-none">
@@ -69,6 +69,7 @@
                 <fieldset>
                   <button name="send" type="submit" id="contact-submit" data-submit="...Отправка сообщения">Submit</button>
                 </fieldset>
+                <div class="contact-form__fail d-none js-form-fail">Поля: имя, e-mail и сообщения обязытельны для заполнения</div>
             </form>
         </div>
     </div>

@@ -87,6 +87,7 @@ App.sendEmail = {
     },
     send: function() {
         var buttonFormSend = $('#contact-submit');
+        var formFail = $('.js-form-fail');
         $(buttonFormSend).on('click', function() {
             var beforeHeader = $('.js-beforeHeaderContactForm'),
                 afterHeader = $('.js-afterHeaderContactForm'),
@@ -102,22 +103,27 @@ App.sendEmail = {
                 message: $(message).val()
             };
 
-            console.log($(page).val());
-            $.ajax({
-                type: "POST",
-                url: $(page).val(),
-                data: data,
-                success: function(){
-                    $(beforeHeader).hide();
-                    $(name).val('');
-                    $(email).val('');
-                    $(number).val('');
-                    $(message).val('');
-                    $(afterHeader).fadeIn(900);
+            if (data.name && data.email && data.number && data.message) {
+                $(formFail).hide();
+                $.ajax({
+                    type: "POST",
+                    url: $(page).val(),
+                    data: data,
+                    success: function(){
+                        $(beforeHeader).hide();
+                        $(name).val('');
+                        $(email).val('');
+                        $(number).val('');
+                        $(message).val('');
+                        $(afterHeader).fadeIn(900);
 
-                }
-            });
-            return false;
+                    }
+                });
+                return false;
+            } else {
+                $(formFail).show();
+                return false;
+            }
         });
     }
 };

@@ -46,7 +46,7 @@ if($_POST) {
 ?>
     <form id="contact" class="contact-form" action="contact.php" method="post">
         <div class="js-beforeHeaderContactForm">
-            <h3>We will be glad to hear from you!</h3>
+            <h3 class="contact-form__title">We will be glad to hear from you!</h3>
             <h4>Here you can ask a question archpriest Michael van Opstall or send your request for a special service.</h4>
         </div>
         <div class="js-afterHeaderContactForm d-none">
@@ -69,6 +69,7 @@ if($_POST) {
         <fieldset>
           <button name="send" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
+        <div class="contact-form__fail d-none js-form-fail">Fields: name, email and messages are required</div>
     </form>
 </div>
 	</div>

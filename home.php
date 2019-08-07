@@ -51,57 +51,64 @@ Our services are in a mix of Church Slavonic and English. All are welcome to vis
 </div>
 </div>
 
-<!--box model-->
 <div class="row">
-  <div class="col-4 col-s-12">
-  <div class="column2 left2">  <a href="coffeeshop-0010" border=0><img src="coffeeshop-0010 (2).jpg" alt="Saint George" width=100%
-        height="auto" style="float:left"></a>
-        <p class="second about-banner__text">
- <span style="text-align:center; font-family:TriodPostnaja;color:red">Who we are...</span><br>
+    <div class="col-4 col-s-12">
+        <div class="column2 box-border">
+            <div class="box-border__content">
+                <a href="coffeeshop-0010" border=0>
+                    <img src="coffeeshop-0010 (2).jpg" alt="Saint George" width=100% height="auto" style="float:left">
+                </a>
+                <p class="second about-banner__text">
+                    <span style="text-align:center; font-family:TriodPostnaja;color:red">Who we are...</span>
+                    <br>
 
-    Our parish is a part of the Russian Orthodox Church, whose current first hierarch is Patriarch Kirill of Moscow.
-We are part of the Russian Orthodox Church Outside of Russia, whose first hierarch is Metropolitan Hilarion of New York and Eastern America.
+                    Our parish is a part of the Russian Orthodox Church, whose current first hierarch is Patriarch Kirill of Moscow.
+                    We are part of the Russian Orthodox Church Outside of Russia, whose first hierarch is Metropolitan Hilarion of New York and Eastern America.
 
-The parish is located in the Western American Diocese, led by archbishop Kyrill of San Francisco and Western America.
+                    The parish is located in the Western American Diocese, led by archbishop Kyrill of San Francisco and Western America.
+                </p>
+                <div class="container">
+                    <a href="about.php"><button class="button1"><span>Read More</span></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 col-s-12">
+        <div class="column2 box-border">
+            <div class="box-border__content">
+                <a href="coffeeshop-0010" border=0><img src="school (3).jpg" alt="School" style="float:left" height="auto" width="100%"></a>
+                <p class="second about-banner__text">
+                <span style="text-align:center; font-family:TriodPostnaja;color:red;">Our school...</span><br>
+                School is an integral part of parish life at Saint George Russian Ortodox Church. It is not necessary to push the children to serve the Church. Their self-motivation, by God’s mercy, is displayed in abundance and is found throughout parish life.
+                </p>
+                <div class="container">
+                    <a href="school.php"><button class="button1"><span>Read More</span></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 col-s-12">
+        <div class="column2 box-border">
+            <div class="box-border__content">
+                <a href="coffeeshop-0010" border=0>
+                    <img src="18623226_10156089761088056_4316646610292205636_o (2).jpg" alt="Saint George" style="float:left" height="auto" width="100%">
+                </a>
+                <p class="second about-banner__text">
+                    <span style="text-align:center; font-family:TriodPostnaja;color:red">Our services...</span><br>
 
-  <div class="container">
-    <a href="about.php"><button class="button1"><span>Read More</span></button></a>
-</div>
-</p>
-</div>
- </div>
+                    Besides our main services you can also request special Services of Need:
 
- <div class="col-4 col-s-12">
-  <div class="column2 middle2"><a href="coffeeshop-0010" border=0><img src="school (3).jpg" alt="School" style="float:left" height="auto" width="100%"></a>
-        <p class="second about-banner__text">
-    <span style="text-align:center; font-family:TriodPostnaja;color:red;">Our school...</span><br>
-
-    School is an integral part of parish life at Saint George Russian Ortodox Church. It is not necessary to push the children to serve the Church. Their self-motivation, by God’s mercy, is displayed in abundance and is found throughout parish life.
-    <div class="container">
-    <a href="school.php"><button class="button1"><span>Read More</span></button></a>
-</div>
-  </p>
-<!--box model-->
-   </div>
-</div>
-<div class="col-4 col-s-12">
-  <div class ="column2 right2"><a href="coffeeshop-0010" border=0><img src="18623226_10156089761088056_4316646610292205636_o (2).jpg" alt="Saint George" style="float:left" height="auto" width="100%"></a>
-
- <p class="second about-banner__text">
-<span style="text-align:center; font-family:TriodPostnaja;color:red">Our services...</span><br>
-
-    Besides our main services you can also request special Services of Need:
-
-Marriage ceremony,
-Prayer of Supplication/Molieben (for healing, thanksgiving, blessing a project, etc),
-Funeral,
-Memorial Service/Panihida
-    <div class="container">
-    <a href="specialservices.php"><button class="button1"><span>Read More</span></button></a>
-</div>
-  </p>
-</div>
-</div>
+                    Marriage ceremony,
+                    Prayer of Supplication/Molieben (for healing, thanksgiving, blessing a project, etc),
+                    Funeral,
+                    Memorial Service/Panihida
+                </p>
+                <div class="container">
+                    <a href="specialservices.php"><button class="button1"><span>Read More</span></button></a>
+                </div>
+             </div>
+        </div>
+    </div>
 </div>
 
 <div class="div10 d-sm-none" style="overflow:auto">
