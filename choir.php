@@ -20,7 +20,8 @@
 
     <div class="row">
         <header class="col-12 col-s-12 header5">
-         <?php include 'Menu.php'; ?>
+            <img class="header__bg" src="30741196_10157245815828056_4782032951191797760_o.jpg" alt="Saint George Orthodox Russian Church"/>
+            <?php include 'Menu.php'; ?>
         </header>
     </div>
 

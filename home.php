@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -23,10 +23,10 @@
 
 <!--<div id = "dvImage" style="width:100%; height:650px; background-attachment: fixed; background-position: center;    background-size: cover;  background-repeat: no-repeat 50 50;">-->
 <header class="col-12 col-s-12  header1">
-    <div class="header1__bg"></div>
+    <img class="header1__bg" alt="Saint George Orthodox Russian Church"/>
     <div class="header1__text-banner" style="background:linear-gradient( to top, rgb(100,25,25) 25%, rgb(100,25,25, 0.5), rgb(100,25,25, 0.0))">
-        <h1 style="color:white; text-align:center; padding-top:50px; text-shadow: 3px 3px 8px black, 0 0 15px blue, 0 0 5px red;">St. George Russian Orthodox Church</h1>
-        <h2 class="h3" style="text-shadow: 1px 1px 3px black, 0 0 15px blue, 0 0 5px red">A parish of the <a class="a_black1" href="http://www.wadiocese.com/" target="_blank">Western American Diocese of the Russian Orthodox Church Outside Russia</a></h2>
+        <h1 class="header__title" style="color:white; text-align:center; padding-top:50px; text-shadow: 3px 3px 8px black, 0 0 15px blue, 0 0 5px red;">St. George Russian Orthodox Church</h1>
+        <h2 class="h3 header__description" style="text-shadow: 1px 1px 3px black, 0 0 15px blue, 0 0 5px red">A parish of the <a class="a_black1" href="http://www.wadiocese.com/" target="_blank">Western American Diocese of the Russian Orthodox Church Outside Russia</a></h2>
     </div>
     <?php include 'Menu.php'; ?>
     <!--<img class="imggif" src="icon (1).gif" alt="St-George-Russian-Orthodox-Church-Salt-Lake-City-UT-98028488055" style="width:200;height:200px; float:left;">-->
@@ -118,32 +118,23 @@ Our services are in a mix of Church Slavonic and English. All are welcome to vis
 </div>
 
 <div class="row">
-
- <div class="col-8 col-s-12">
-       <div class="column3 left3">
-
-
-        <iframe src="https://www.google.com/calendar/embed?src=stgeoslc%40gmail.com&ctz=America/Denver" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no">
-
-        </iframe>
-
-</div>
-</div>
-
- <div class="col-4 col-s-12">
-    <div class="column3 right3">
-<SCRIPT Language="JavaScript" Src="https://www.ponomar.net/cgi-bin/julian.cgi?mode=simple"></SCRIPT>
-
+    <div class="col-8 col-s-12">
+        <div class="column3 box-border">
+            <div class="box-border__content box-border__content--scroll">
+                <iframe src="https://www.google.com/calendar/embed?src=stgeoslc%40gmail.com&ctz=America/Denver" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 col-s-12">
+        <div class="column3 right3">
+            <SCRIPT Language="JavaScript" Src="https://www.ponomar.net/cgi-bin/julian.cgi?mode=simple"></SCRIPT>
+        </div>
     </div>
 </div>
 
 </div>
 </main>
 
-<!--box model-->
-<?php
-include 'footer.php';
-?>
+<?php include 'footer.php'; ?>
 </body>
-
 </html>

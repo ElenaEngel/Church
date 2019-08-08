@@ -43,14 +43,14 @@ App.bgImageMainPage = {
         var images = ["service.jpg", "SLC_consecration0.JPG", "o.jpg", "wedding.jpg", "imag12.jpg", "communion.jpg", "church2.jpg"];
         $(function () {
             var i = 0;
-            $(".header1__bg").css("background-image", "url(" + images[i] + ")");
+            $(".header1__bg").attr("src", images[i]);
             setInterval(function () {
                 i++;
                 if (i === images.length) {
                     i = 0;
                 }
                 $(".header1__bg").fadeOut("slow", function () {
-                    $(this).css("background-image", "url(" + images[i] + ")");
+                    $(this).attr("src", images[i]);
                     $(this).fadeIn("slow");
                 });
             }, 5000);

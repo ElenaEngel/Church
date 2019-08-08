@@ -19,7 +19,8 @@
 
     <div class="row">
         <header class="col-12 col-s-12 header3">
-         <?php include 'Menu.php'; ?>
+            <img class="header__bg" src="SLC_consecration0.jpg" alt="Saint George Orthodox Russian Church"/>
+            <?php include 'Menu.php'; ?>
         </header>
     </div>
 
