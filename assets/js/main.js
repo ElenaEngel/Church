@@ -34,10 +34,25 @@ App.menu = {
     }
 };
 
+App.truncate = function(source, size) {
+    return source.slice(0, size - 1) + "…";
+};
+
+App.text = {
+    bindEvent: function() {
+        this.truncate();
+    },
+    truncate: function() {
+        $('.truncate').each(function() {
+            console.log($(this).html());
+            $(this).html(App.truncate($(this).html(), 360))
+        })
+    }
+};
+
 App.bgImageMainPage = {
     bindEvent: function() {
         this.changeBg();
-
     },
     changeBg: function() {
         var images = ["service.jpg", "SLC_consecration0.JPG", "o.jpg", "wedding.jpg", "imag12.jpg", "communion.jpg", "church2.jpg"];

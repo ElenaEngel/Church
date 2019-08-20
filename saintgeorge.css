@@ -743,21 +743,36 @@ background-color: grey; /* Green */
     background-color: #ddd;
     position:relative;
 }
-  .dropbtn {
-    /*float example*/
+
+.contact-thumbnail img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .thumbnail {
+        padding: 10px;
+    }
+    .contact-thumbnail img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+.dropbtn {
     float:right;
-    /*align example*/
     text-align: center;
     font-size: 120%;
     color: white;
-    background-color: inherit;
-    /*border example*/
     border: none;
-    /*outline example*/
-  outline: none;
+    outline: none;
     text-decoration: none;
-     font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0;
+    font-family: inherit;
+    margin: 0;
+    background-color: transparent;
 }
 
 .dropdown-content {
@@ -972,13 +987,11 @@ height:450px;
     padding: 10px;
     overflow:auto;
     border: 5px solid transparent;
-    border-style: solid;
-    border-width: 5px;
-    border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
-    -webkit-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Safari 3.1-5 */
-    -o-border-image: url('gold_bamboo_wallpaper_tileable.jpg') 30 round; /* Opera 11-12.1 */
-    -moz-border-image:url('gold_bamboo_wallpaper_tileable.jpg') 30 round;
     background-color: #FFF8DC;
+}
+
+.right3 .box-border__content {
+    height: 100%;
 }
 
 .right4 {
@@ -1064,34 +1077,28 @@ p.sixth {
 }
 
 p.third {
-  font-size: 120%;
-
-  line-height:3 ;
-  text-align: center;
-  padding:5px;
-  font-family: Georgia;
-
+    font-size: 120%;
+    line-height:3 ;
+    text-align: center;
+    padding:5px;
+    font-family: Georgia;
 }
 
 p.seventh{font-size: 120%;
-  font-family: Georgia;
-  line-height: 2;
-  text-align: justify;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   letter-spacing: 1px;
-/*padding-left:10px;
-padding-right:10px;*/
+    font-family: Georgia;
+    line-height: 2;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
 }
-
-
 
 p.second {
     font-family: Georgia;
     line-height: 2;
     text-align: center;
     padding: 10px;
-    height: 290px;
+    height: 245px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -1124,6 +1131,7 @@ p.fifth {
     color: white;
     padding:20px;
 }
+
 .div10 {
     background-image:url('do2xz8.jpg');
     height: 700px;
@@ -1133,6 +1141,7 @@ p.fifth {
     background-size: cover;
     width:100%;
 }
+
 .footer {
     background-image: url('plain-red-wallpaper-120-166-hd-wallpapers.jpg') ;
     height:auto;
@@ -1156,7 +1165,6 @@ p.fifth {
 .back-to-top:hover {
     background-color: rgba(135, 135, 135, 0.50);
 }
-
 
 .slideshow-container {
   max-width: 900px;
@@ -1208,6 +1216,10 @@ p.fifth {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+}
+
+.truncate {
+    display: block;
 }
 
 .dot {
@@ -1278,6 +1290,10 @@ p.fifth {
 
 .about-banner__text {
     overflow: hidden;
+}
+
+.about-banner__text-content {
+    line-height: 2;
 }
 
 .header1__text-banner {
@@ -1438,6 +1454,11 @@ p.fifth {
 .contact-form__title {
     margin-top: 0;
 }
+
+.align-left {
+    text-align: left !important;
+}
+
 @media screen and (max-width: 1020px) {
     .header__bg,
     .header1__bg {
@@ -1469,8 +1490,6 @@ p.fifth {
         padding: 15px;
     }
     .thumbnail img {
-        height: 300px;
-        object-fit: contain;
         object-position: center;
     }
 

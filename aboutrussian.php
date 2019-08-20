@@ -31,7 +31,7 @@
 	<div class="col-10 col-s-12">
 
 		<h2>О нас</h2>
-		<p class="sixth about-banner__text">
+		<p class="sixth about-banner__text align-left">
 
 		Наш приход является частью Русской Православной Церкви, во главе которой
                 в настоящее время находится светлейший Патриарх Московский и всея Руси Кирилл,
@@ -63,7 +63,7 @@ include 'menu2.php';
     </div>
     <div class="row about-banner about-banner--margin">
     <div class="col-12">
-         <div class="container4 about-banner__text">
+         <div class="container4 about-banner__text align-left">
 
 		<h2>Святой великомученик Георгий Победоносец</h2>
 

@@ -17,23 +17,20 @@
 </head>
 
 <body class="body">
+    <div class="row">
 
-<div class="row">
-
-
-<!--<div id = "dvImage" style="width:100%; height:650px; background-attachment: fixed; background-position: center;    background-size: cover;  background-repeat: no-repeat 50 50;">-->
-<header class="col-12 col-s-12  header1">
-    <img class="header1__bg" alt="Saint George Orthodox Russian Church"/>
-    <div class="header1__text-banner" style="background:linear-gradient( to top, rgb(100,25,25) 25%, rgb(100,25,25, 0.5), rgb(100,25,25, 0.0))">
-        <h1 class="header__title" style="color:white; text-align:center; padding-top:50px; text-shadow: 3px 3px 8px black, 0 0 15px blue, 0 0 5px red;">St. George Russian Orthodox Church</h1>
-        <h2 class="h3 header__description" style="text-shadow: 1px 1px 3px black, 0 0 15px blue, 0 0 5px red">A parish of the <a class="a_black1" href="http://www.wadiocese.com/" target="_blank">Western American Diocese of the Russian Orthodox Church Outside Russia</a></h2>
+    <!--<div id = "dvImage" style="width:100%; height:650px; background-attachment: fixed; background-position: center;    background-size: cover;  background-repeat: no-repeat 50 50;">-->
+        <header class="col-12 col-s-12  header1">
+            <img class="header1__bg" alt="Saint George Orthodox Russian Church"/>
+            <div class="header1__text-banner" style="background:linear-gradient( to top, rgb(100,25,25) 25%, rgb(100,25,25, 0.5), rgb(100,25,25, 0.0))">
+                <h1 class="header__title" style="color:white; text-align:center; padding-top:50px; text-shadow: 3px 3px 8px black, 0 0 15px blue, 0 0 5px red;">St. George Russian Orthodox Church</h1>
+                <h2 class="h3 header__description" style="text-shadow: 1px 1px 3px black, 0 0 15px blue, 0 0 5px red">A parish of the <a class="a_black1" href="http://www.wadiocese.com/" target="_blank">Western American Diocese of the Russian Orthodox Church Outside Russia</a></h2>
+            </div>
+            <?php include 'Menu.php'; ?>
+            <!--<img class="imggif" src="icon (1).gif" alt="St-George-Russian-Orthodox-Church-Salt-Lake-City-UT-98028488055" style="width:200;height:200px; float:left;">-->
+            <!--<div class="row" style="height:200px; background:linear-gradient(to top, rgb(54, 25, 25), rgb(54, 25, 25, 0.5));">-->
+        </header>
     </div>
-    <?php include 'Menu.php'; ?>
-    <!--<img class="imggif" src="icon (1).gif" alt="St-George-Russian-Orthodox-Church-Salt-Lake-City-UT-98028488055" style="width:200;height:200px; float:left;">-->
-    <!--<div class="row" style="height:200px; background:linear-gradient(to top, rgb(54, 25, 25), rgb(54, 25, 25, 0.5));">-->
-</header>
-
-</div>
 
 <!--box model-->
 
@@ -61,11 +58,13 @@ Our services are in a mix of Church Slavonic and English. All are welcome to vis
                 <p class="second about-banner__text">
                     <span style="text-align:center; font-family:TriodPostnaja;color:red">Who we are...</span>
                     <br>
-
-                    Our parish is a part of the Russian Orthodox Church, whose current first hierarch is Patriarch Kirill of Moscow.
+                    <span class="about-banner__text-content truncate">
+                                            Our parish is a part of the Russian Orthodox Church, whose current first hierarch is Patriarch Kirill of Moscow.
                     We are part of the Russian Orthodox Church Outside of Russia, whose first hierarch is Metropolitan Hilarion of New York and Eastern America.
 
                     The parish is located in the Western American Diocese, led by archbishop Kyrill of San Francisco and Western America.
+                    </span>
+
                 </p>
                 <div class="container">
                     <a href="about.php"><button class="button1"><span>Read More</span></button></a>
@@ -79,7 +78,9 @@ Our services are in a mix of Church Slavonic and English. All are welcome to vis
                 <a href="coffeeshop-0010" border=0><img src="school (3).jpg" alt="School" style="float:left" height="auto" width="100%"></a>
                 <p class="second about-banner__text">
                 <span style="text-align:center; font-family:TriodPostnaja;color:red;">Our school...</span><br>
-                School is an integral part of parish life at Saint George Russian Ortodox Church. It is not necessary to push the children to serve the Church. Their self-motivation, by God’s mercy, is displayed in abundance and is found throughout parish life.
+                    <span class="about-banner__text-content truncate">
+                     School is an integral part of parish life at Saint George Russian Ortodox Church. It is not necessary to push the children to serve the Church. Their self-motivation, by God’s mercy, is displayed in abundance and is found throughout parish life.
+                    </span>
                 </p>
                 <div class="container">
                     <a href="school.php"><button class="button1"><span>Read More</span></button></a>
@@ -95,13 +96,13 @@ Our services are in a mix of Church Slavonic and English. All are welcome to vis
                 </a>
                 <p class="second about-banner__text">
                     <span style="text-align:center; font-family:TriodPostnaja;color:red">Our services...</span><br>
-
-                    Besides our main services you can also request special Services of Need:
-
-                    Marriage ceremony,
-                    Prayer of Supplication/Molieben (for healing, thanksgiving, blessing a project, etc),
-                    Funeral,
-                    Memorial Service/Panihida
+                    <span class="about-banner__text-content truncate">
+                        Besides our main services you can also request special Services of Need:
+                        Marriage ceremony,
+                        Prayer of Supplication/Molieben (for healing, thanksgiving, blessing a project, etc),
+                        Funeral,
+                        Memorial Service/Panihida
+                    </span>
                 </p>
                 <div class="container">
                     <a href="specialservices.php"><button class="button1"><span>Read More</span></button></a>
@@ -110,31 +111,25 @@ Our services are in a mix of Church Slavonic and English. All are welcome to vis
         </div>
     </div>
 </div>
-
-<div class="div10 d-sm-none" style="overflow:auto">
-
-
-
-</div>
-
-<div class="row">
-    <div class="col-8 col-s-12">
-        <div class="column3 box-border">
-            <div class="box-border__content box-border__content--scroll">
-                <iframe src="https://www.google.com/calendar/embed?src=stgeoslc%40gmail.com&ctz=America/Denver" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="div10 d-sm-none" style="overflow:auto"></div>
+            <div class="row">
+                <div class="col-8 col-s-12">
+                    <div class="column3 box-border">
+                        <div class="box-border__content box-border__content--scroll">
+                            <iframe src="https://www.google.com/calendar/embed?src=stgeoslc%40gmail.com&ctz=America/Denver" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-s-12">
+                    <div class="column3 right3 box-border">
+                        <div class="box-border__content">
+                            <SCRIPT Language="JavaScript" Src="https://www.ponomar.net/cgi-bin/julian.cgi?mode=simple"></SCRIPT>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-4 col-s-12">
-        <div class="column3 right3">
-            <SCRIPT Language="JavaScript" Src="https://www.ponomar.net/cgi-bin/julian.cgi?mode=simple"></SCRIPT>
-        </div>
-    </div>
-</div>
-
-</div>
-</main>
-
-<?php include 'footer.php'; ?>
+    </main>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

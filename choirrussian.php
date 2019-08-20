@@ -32,7 +32,7 @@
 
 		<div class="col-10 col-s-12">
 			<h2>Хор</h2>
-            <p class ="sixth about-banner__text">
+            <p class ="sixth about-banner__text align-left">
 			<i style="text-align:right">Хор находится под руководством Катерины Норман.</i><br>
 
 				Церковный хор прихода Святого Георгия в г. Джордан, шт. Юта,

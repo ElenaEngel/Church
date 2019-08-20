@@ -99,7 +99,7 @@ include 'menu1.php';
 
 
    <div class="col-4 col-s-12 about-banner__text">
-      <div class="thumbnail">
+      <div class="thumbnail contact-thumbnail">
         <img src="russianchurch_0505149 copy.jpg" alt="Michael van Opstal">
         <p><strong>Michael van Opstal </strong></p>
         <p><strong></strong></p>
@@ -109,7 +109,7 @@ include 'menu1.php';
     </div>
 
     <div class="col-4 col-s-12">
-      <div class="thumbnail">
+      <div class="thumbnail contact-thumbnail">
         <img src="newyork.jpg" alt="Igor Birioukov">
         <p><strong>Igor Birioukov</strong></p>
         <p><i class="fa fa-envelope"></i>   <a href="mailto:stgeoslc@gmail.com?Subject=Hello%20again" target="_top">stgeoslc@gmail.com</a><br><br>
@@ -118,7 +118,7 @@ include 'menu1.php';
     </div>
 
     <div class="col-4 col-s-12">
-      <div class="thumbnail">
+      <div class="thumbnail contact-thumbnail">
         <img src="catherine.jpg" alt="Catherine Norman">
         <p><strong>Catherine Norman</strong></p>
         <p><i class="fa fa-envelope"></i>   <a href="mailto:stgeoslc@gmail.com?Subject=Hello%20again" target="_top">stgeoslc@gmail.com</a><br><br>

@@ -36,7 +36,7 @@
 
 		        </div>
 
-		      <div class="col-6 col-s-6"><p class="seventh about-banner__text">
+		      <div class="col-6 col-s-6"><p class="seventh about-banner__text align-left">
 		      	Наш приход является частью Русской Православной Церкви, во главе которой
                 в настоящее время находится светлейший Патриарх Московский и всея Руси Кирилл
                         1 февраля 2009 года состоялась интронизация митрополита Кирилла
@@ -57,7 +57,7 @@
 			<img src="mitropolit_ilarion.jpg" alt="Saint George" style="display:block; margin: 0 auto; padding:10px;" height="auto" width=70%>
 		        </div>
 
-		      <div class="col-6 col-s-6"><p class="seventh about-banner__text">
+		      <div class="col-6 col-s-6"><p class="seventh about-banner__text align-left">
 		      Наш приход является частью Русской Православной Церкви Заграницей,
                        возглавляемой с 2008 года митрополитом Восточно-Американским и Нью-Йоркским Иларионом.
                         12 мая 2008 г. Архиерейский Собор РПЦЗ избрал архиепископа Илариона
@@ -76,7 +76,7 @@
 
 		        </div>
 
-		      <div class="col-6 col-s-6"><p class="seventh about-banner__text">
+		      <div class="col-6 col-s-6"><p class="seventh about-banner__text align-left">
 		      	Приход расположен в Западно-Американской епархии. Правящим
                         архиереем Западно-Американской епархии
 является архиепископ
@@ -97,7 +97,7 @@
 
 		        </div>
 
-		      <div class="col-6 col-s-6"><p class="seventh about-banner__text">
+		      <div class="col-6 col-s-6"><p class="seventh about-banner__text align-left">
 
 Викарием Сан-Францисской и Западно-Американской епархии является епископ Сиэтлийский Феодосий.
 Наречен во епископа 6 сентября 2008 г. Хиротонисан 7 сентября за Божественной
@@ -120,7 +120,7 @@
 
 		        </div>
 
-		      <div class="col-6 col-s-6"><p class="seventh about-banner__text">
+		      <div class="col-6 col-s-6"><p class="seventh about-banner__text align-left">
 		      	Настоятель нашего храма, протоиерей Михаил ван Опстал, отец 4х детей,
 профессор математики в Университете Юты и
 <a href ="http://www.stgeorgeslc.org/vonotes.html" target="blank">композитор</a>  хоровой музыки. Он закончил Пастырскую школу Чикагской епархии в 2007 году.</p>

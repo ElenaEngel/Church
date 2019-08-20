@@ -90,7 +90,7 @@
           <div class="row container7">
 
    <div class="col-4 col-s-12">
-      <div class="thumbnail">
+      <div class="thumbnail contact-thumbnail">
         <img src="russianchurch_0505149 copy.jpg" alt="Michael van Opstal">
         <p><strong>Михаил ван Опстал</strong></p>
         <p><strong></strong></p>
@@ -100,7 +100,7 @@
     </div>
 
     <div class="col-4 col-s-12">
-      <div class="thumbnail">
+      <div class="thumbnail contact-thumbnail">
         <img src="newyork.jpg" alt="Igor Birioukov">
         <p><strong>Игорь Бирюков</strong></p>
         <p><i class="fa fa-envelope"></i>   <a href="mailto:stgeoslc@gmail.com?Subject=Hello%20again" target="_top">stgeoslc@gmail.com</a><br><br>
@@ -109,7 +109,7 @@
     </div>
 
     <div class="col-4 col-s-12">
-      <div class="thumbnail">
+      <div class="thumbnail contact-thumbnail">
         <img src="catherine.jpg" alt="Catherine Norman">
         <p><strong>Катерина Норман</strong></p>
         <p><i class="fa fa-envelope"></i>   <a href="mailto:stgeoslc@gmail.com?Subject=Hello%20again" target="_top">stgeoslc@gmail.com</a><br><br>

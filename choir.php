@@ -32,7 +32,7 @@
 
 		<div class="col-10 col-s-12">
 			<h2>Choir</h2>
-            <p class ="sixth about-banner__text">
+            <p class ="sixth about-banner__text align-left">
 			<i style="text-align:right">The choir is under the direction of Catherine Norman.</i><br>
 
 				The church choir of Saint George Church in Jordan, Utah, has always consisted of women and girls. Over the course of several years the Father Rector, Archpriest Michael van Opstall, has written three-part arrangements and original compositions for women’s and girls’ voices. For the most part Father Michael writes arrangements based on musical anthologies like those found in the “Chanter's Companion” (Sputnik psalomchika), which comprises single-voiced melodies of the Zamenii Chant printed in square notation.

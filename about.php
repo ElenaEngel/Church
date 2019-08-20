@@ -30,24 +30,15 @@
 	<div class="row">
 
 	<div class="col-10 col-s-12">
-
 		<h2>About us </h2>
-		<p class="sixth about-banner__text">
-
-		Our parish is a part of the Russian Orthodox Church, whose current first hierarch is Patriarch Kirill of Moscow.
-
-We are part of the Russian Orthodox Church Outside of Russia, whose first hierarch is Metropolitan Hilarion of New York and Eastern America.
-
-The parish is located in the Western American Diocese, led by archbishop Kyrill of San Francisco and Western America.
-
-Our deanery, the northwest deanery, is led by bishop Theodosy of Seattle, and administered by the dean Fr. Alexei Kotar.
-
-Our rector is archpriest Michael van Opstall. Fr. Michael is a father of four, a professor of mathematics at the University of Utah, and a composer of choral music. He completed the Pastoral School of the Chicago Diocese in 2007.
-
-Our warden since 2016 is Igor Birioukov.
-
-The choir is under the direction of Catherine Norman.
-
+		<p class="sixth about-banner__text align-left">
+                    Our parish is a part of the Russian Orthodox Church, whose current first hierarch is Patriarch Kirill of Moscow.
+            We are part of the Russian Orthodox Church Outside of Russia, whose first hierarch is Metropolitan Hilarion of New York and Eastern America.
+            The parish is located in the Western American Diocese, led by archbishop Kyrill of San Francisco and Western America.
+            Our deanery, the northwest deanery, is led by bishop Theodosy of Seattle, and administered by the dean Fr. Alexei Kotar.
+            Our rector is archpriest Michael van Opstall. Fr. Michael is a father of four, a professor of mathematics at the University of Utah, and a composer of choral music. He completed the Pastoral School of the Chicago Diocese in 2007.
+            Our warden since 2016 is Igor Birioukov.
+            The choir is under the direction of Catherine Norman.
 	</p>
 </div>
 <div class="demo col-2 col-s-2">
@@ -62,7 +53,7 @@ include 'menu1.php';
 </div>
     <div class="row about-banner about-banner--margin">
     <div class="col-12">
-         <div class="container4 about-banner__text">
+         <div class="container4 about-banner__text align-left">
 
 		<h2>The Holy Great-Martyr George the Trophy-Bearer </h2>
 
