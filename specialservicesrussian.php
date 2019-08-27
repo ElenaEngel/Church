@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="saintgeorge.css">
-<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/triod-postnaja" type="text/css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
-<script type="text/javascript" src="js/infinite-rotator.js"></script>
-  <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-  
-
-<title>Saint George Orthodox Russian Church</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="saintgeorge.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/triod-postnaja" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script>
+    <script type="text/javascript">//<![CDATA[
+    var xmlHttp;function loadCalendar2(mm,dd,yy,dt,hh,ll,tt,ss){xmlHttp=null;if(window.XMLHttpRequest){xmlHttp=new XMLHttpRequest();}else if(window.ActiveXObject){xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");}if(xmlHttp!=null){var par="http://www.stgeorgeslc.org/ppp.php";par=par+"?month="+mm+"&today="+dd+"&year="+yy+"&dt="+dt+"&header="+hh+"&lives="+ll+"&trp="+tt+"&scripture="+ss;par=par+"&sid="+Math.random();xmlHttp.onreadystatechange=stateChanged2;xmlHttp.open("GET",par,true);xmlHttp.send(null);}else{alert("Your browser does not support XMLHTTP.");}}function stateChanged2(){if(xmlHttp.readyState==4){if(xmlHttp.status==200){document.getElementById('T1').innerHTML=xmlHttp.responseText}/*else{alert("Problem retrieving data: "+xmlHttp.statusText);}*/}}
+    //]]></script>
+    <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Saint George Orthodox Russian Church</title>
+    <script src="assets/libs/jquery-3.4.1.min.js"></script>
 </head>
-<body>
-<header class="col-12 col-s-12 header7" id = "dvImage">
- <?php
-      include "MenuRussian.php";
-      ?>
-</header>
-<main class="cl-12 col-s-12 borderimage">
+
+<body class="body">
+
+     <div class="row">
+         <header class="col-12 col-s-12 header7">
+         <img class="header__bg" src="wedding.jpg" alt="Saint George Orthodox Russian Church"/>
+          <?php include 'MenuRussian.php'; ?>
+         </header>
+     </div>
+<main class="cl-12 col-s-12 borderimage about-banner">
 	<div class="row">
 		<div class="col-10 col-s-12">
 
 			<h2>Специальные богослужения</h2>
-                        
-                        <p class="second1"> 
+
+                        <p class="second1 about-banner__text">
                             Помимо наших основных служб мы проводим специальные богослужения по требам:<br>
 <ul class="ul2">
                          <li class="li2">   <a href="#wedding">Венчание</a><li>
@@ -40,7 +40,7 @@
                               <li class="li2">   <a href="#blessing">Освящение дома</a><li>
                             </ul>
                   </p>
-			
+
 
 	</div>
 
@@ -51,23 +51,23 @@
 include 'menu2.php';
     ?>
          </div>
-  
+
         </div>
-    <div class ="row">
+    <div class ="row about-banner about-banner--margin">
          <div class="col-12 col-s-12">
-        
-        <div class="container4">
-            
+
+        <div class="container4 about-banner__text">
+
             <h2 id="wedding" style="text-align:left">Венчание</h2>
-        
-            <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.jpeg" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>  
-            
+
+            <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.jpeg" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
+
            Брак есть Таинство, в котором, при свободном перед священ­ником и Церковью обещании женихом и невестой взаимной супружеской верности, благословляется их супружеский союз, во образ духовного союза Христа с Церковью, и испрашивается им благодать чистого еди­нодушия, к благословенному рождению и христианскому воспитанию детей. Брак сам по себе великая святыня. Он становится спасительным путем для человека при правильном отношении к нему. Бракосочетание является началом семьи, а семья есть малая церковь Христова.<br><br>
   <b>Какова цель христианского брака? Только ли рожде­ние детей?</b><br>
 Воплощая изначальную волю Господа о творении, благосло­венный Им супружеский союз стал средством продолжения и умно­жения человеческого рода: «И благословил их Бог, и сказал им Бог: плодитесь и размножайтесь, и наполняйте землю, и обладайте ею» (Быт. 1:28). Но рождение детей не является единственной целью брака. Различие между полами есть особый дар Творца созданным Им людям. «И сотворил Бог человека по образу Своему, по образу Божию сотворил его; мужчину и женщину сотворил их» (Быт. 1:27). Будучи в равной сте­пени носителями образа Божия и человеческого достоинства, мужчина и женщина созданы для целостного единения друг с другом в любви: «Потому оставит человек отца своего и мать свою и прилепится к жене своей; и будут два одна плоть» (Быт. 2:24).<br><br>
   Поэтому для христиан брак стал не просто средством продол­жения рода, но, по слову святителя Иоанна Златоуста, «таинством люб­ви», вечным единением супругов друг с другом во Христе.<br><br>
  Христианскую семью называют «малой церковью», ибо един­ство людей в браке подобно единению людей в Церкви, «большой се­мье», - это единение в любви. Для того чтобы любить, человек должен отвергнуться своего эгоизма, научиться жить ради другого человека. Этой цели и служит христианский брак, в котором супруги преодолева­ют свою греховность и природную ограниченность.<br><br>
- Есть и другая цель у брака - предохранение от распутства и со­хранение целомудрия. «Во избежание блуда, каждый имей свою жену, и каждая имей своего мужа» (1 Кор. 7:2). «Если не могут воздержаться, пусть вступают в брак; ибо лучше вступить в брак, нежели разжи­гаться» (1 Кор. 7:9).<br><br>			
+ Есть и другая цель у брака - предохранение от распутства и со­хранение целомудрия. «Во избежание блуда, каждый имей свою жену, и каждая имей своего мужа» (1 Кор. 7:2). «Если не могут воздержаться, пусть вступают в брак; ибо лучше вступить в брак, нежели разжи­гаться» (1 Кор. 7:9).<br><br>
 <b> Обязательно ли венчаться?</b><br>
 Если оба супруга верующие, крещеные и православные, то венчание необходимо и обязательно, так как во время этого Таинства муж и жена получают особую благодать, освящающую их брак. Брак в Таинстве Венчания восполняется благодатью Божией на созидание се­мьи как домашней церкви. Прочный дом может быть воздвигнут только на фундаменте, краеугольным камнем которого является Господь Иисус Христос. В христианском браке Божия благодать становится тем фунда­ментом, на котором возводится здание счастливой жизни семьи.<br><br>
 Участие в Таинстве Брака, как и во всех других Таинствах, должно быть осознанным и добровольным. Важнейшим побудитель­ным мотивом к Венчанию должно быть стремление мужа и жены жить по-христиански, по-евангельски; на это и дается помощь Божия в Таин­стве. Если такого стремления нет, а решили венчаться «по традиции», или потому что «красиво», или для того, чтобы «семья была крепче» и «как бы чего не вышло», чтобы муж не загулял, жена не разлюбила, или по подобным причинам - то это неправильно. Прежде чем венчаться желательно подойти к священнику за разъяснением смысла брака, не­обходимости и важности венчания.<br><br>
@@ -98,12 +98,12 @@ include 'menu2.php';
   <b>Могут ли вступать в церковный брак лица старше 50-ти лет?</b><br>
   В церковном брачном праве установлен высший предел для вступления в брак. Свт. Василий Великий указывает предел для вдов - 60 лет, для мужчин - 70 лет (правила 24-е и 88-е). Святейший Синод на основании указания, данного Патриархом Адрианом (+ 1700 г.), запре­тил лицам в возрасте старше 80 лет вступать в брак. Лицам в возрасте от 60 до 80 лет для вступления в брак необходимо испрашивать разреше­ние архиерея (протоиерей Владислав Цыпин).<br><br>
 
-           
+
            <b><i><a href="" style="text-decoration:none">Заявление на брак</a></i></b><br><br>
            </p>
              <h2 id="moleben" style="text-align:left">Молебен</h2>
-              
-<div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.png" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div> 
+
+<div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.png" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
 <b>Что такое молебен?</b><br>
   Это особое богослужение, за которым просят Господа, Богородицу и святых о ниспослании милости или благодарят за получение благ. Молебен может быть  благодарственный, о болящих, о путешествующих, и заказать его можно Спасителю, Божией Матери, святым. <br><br>
 <b>Чем отличается молебен от панихиды?</b><br>
@@ -113,13 +113,13 @@ include 'menu2.php';
 <b>Какие бывают молебны?</b><br>
  Молебны бывают благодарственные и просительные. Последние совершаются по поводу событий и нужд общественно-церковной или частной жизни (путешествие, начало дела, болезнь, освящение воды, стихийные бедствия, нашествие иноплеменников, эпидемия, неурожай и проч.).<br><br>
 Молебнами также являются чины освящения икон и других святынь, а также квартир, автомобилей, полей и пр. <br><br>
- 
-        
-             
+
+
+
              <h2 id="funeral" style="text-align:left">ОТПЕВАНИЕ И ПАННИХИДА</h2>
-                 
-            
-             
+
+
+
 <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images (3).jpeg" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
 <b>Последние часы перед смертью</b><br>
 <i>Священник Сергий Свешников</i><br>
@@ -143,7 +143,7 @@ include 'menu2.php';
 
                  <h2 id="baptism" style="text-align:left;">Крещение</h2>
 
-      <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="orthodox-christmas-clipart-angel2.gif" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>             
+      <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="orthodox-christmas-clipart-angel2.gif" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
 <b>Что такое Крещение и для чего оно необходимо?</b><br>
 Крещение — это священное действие, в котором верующий во Христа через троекратное погружение тела в воду с призыванием имени Святой Троицы омывается от первородного греха, а также от всех грехов, совершенных им до Крещения, духовно умирает для жизни плотской, греховной и, вновь рождаясь, облекается в благодать Божию для жизни святой, по Евангелию. Апостол говорит: ≪Мы погреблись с Ним крещением в смерть, дабы, как Христос воскрес из мертвых славою Отца, так и нам ходить в обновленной жизни≫ (Рим. 6:4). Без Крещения нельзя вступить в Церковь Христову и стать причастником благодатной жизни.<br><br>
 <b>Сколько раз можно креститься?</b><br>
@@ -196,11 +196,11 @@ include 'menu2.php';
 Для совершения Таинства Крещения свидетельство о рождении не требуется, оно нужно лишь для того, чтобы сделать запись в храмовый архив - кто, кого и когда крестил.
 <b>От какого слова происходит слово "крещение"? Если от слова "крест", тогда почему в Евангелии говорится о том, что Иоанн "крестил" водою, еще до того, как Спаситель претерпел крестные страдания?</b><br>
 На всех европейских языках "крещение" значит "баптизо", то есть погружение в воду, омовение в воде. Первоначально этот термин не был связан с церковным Таинством, обозначая всякое омовение водою, погружение в нее. Славянский же язык, возникший уже в христианскую эпоху, подчеркивает именно христианский смысл Крещения как сораспятия со Христом, умирания во Христе и воскресения для новой благодатной жизни. Поэтому, когда Евангелие говорит о крещении Иоанна, то имеется в виду символическое погружение в воду приходящих к нему людей во оставление грехов; происхождение же названия Таинства от слова ≪крест≫ — филологическая особенность нашего языка.<br><br>
- 
 
 
-                 
-                 
+
+
+
                  <b><i><a href="bapt-e.pdf" style="text-decoration:none">Заявление о крещении</a></i></b><br>
               <h2 id="blessing" style="text-align:left;">Освящение дома</h2>
 
@@ -219,8 +219,8 @@ include 'menu2.php';
 Для ежегодного освящения дома необходимо приготовить перед домашними иконами небольшой столик, покрытый чистой скатертью, свечи и сосуд со святой водой. Для полного освящения нового дома также понадобится небольшое количество чистого оливкового масла. <br><br>
 Хотя часто прихожане хотели бы пригласить священника остаться на обед или ужин после освящения дома, нужно помнить, что освящая несколько домов подряд, священник просто физически не в силах несколько раз подряд пообедать или (и) поужинать. Не нужно смущаться, если священнику приходится спешить — длительные духовные беседы за чашкой чая очень важны, но не менее важно найти для них подходящее время в другой день или заранее убедиться в том, что у батюшки есть время после освящения вашего дома. <br><br>
 
-        
-        </div>      
+
+        </div>
         </div>
     </div>
 </main>

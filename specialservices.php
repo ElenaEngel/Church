@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="saintgeorge.css">
-<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/triod-postnaja" type="text/css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
-  <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script> 
-  <script type="text/javascript">//<![CDATA[
-var xmlHttp;function loadCalendar2(mm,dd,yy,dt,hh,ll,tt,ss){xmlHttp=null;if(window.XMLHttpRequest){xmlHttp=new XMLHttpRequest();}else if(window.ActiveXObject){xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");}if(xmlHttp!=null){var par="http://www.stgeorgeslc.org/ppp.php";par=par+"?month="+mm+"&today="+dd+"&year="+yy+"&dt="+dt+"&header="+hh+"&lives="+ll+"&trp="+tt+"&scripture="+ss;par=par+"&sid="+Math.random();xmlHttp.onreadystatechange=stateChanged2;xmlHttp.open("GET",par,true);xmlHttp.send(null);}else{alert("Your browser does not support XMLHTTP.");}}function stateChanged2(){if(xmlHttp.readyState==4){if(xmlHttp.status==200){document.getElementById('T1').innerHTML=xmlHttp.responseText}/*else{alert("Problem retrieving data: "+xmlHttp.statusText);}*/}}
-//]]></script>
-  
-
-<script type="text/javascript" src="js/infinite-rotator.js"></script>
-  <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Saint George Orthodox Russian Church</title>
-<style>
-</style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="saintgeorge.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/triod-postnaja" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script>
+    <script type="text/javascript">//<![CDATA[
+    var xmlHttp;function loadCalendar2(mm,dd,yy,dt,hh,ll,tt,ss){xmlHttp=null;if(window.XMLHttpRequest){xmlHttp=new XMLHttpRequest();}else if(window.ActiveXObject){xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");}if(xmlHttp!=null){var par="http://www.stgeorgeslc.org/ppp.php";par=par+"?month="+mm+"&today="+dd+"&year="+yy+"&dt="+dt+"&header="+hh+"&lives="+ll+"&trp="+tt+"&scripture="+ss;par=par+"&sid="+Math.random();xmlHttp.onreadystatechange=stateChanged2;xmlHttp.open("GET",par,true);xmlHttp.send(null);}else{alert("Your browser does not support XMLHTTP.");}}function stateChanged2(){if(xmlHttp.readyState==4){if(xmlHttp.status==200){document.getElementById('T1').innerHTML=xmlHttp.responseText}/*else{alert("Problem retrieving data: "+xmlHttp.statusText);}*/}}
+    //]]></script>
+    <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1&href=1&tmshift=-11"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Saint George Orthodox Russian Church</title>
+    <script src="assets/libs/jquery-3.4.1.min.js"></script>
 </head>
-<body>
-<header class="col-12 col-s-12 header7">
-  <?php
-  include 'Menu.php';
-  ?>
-</header>
-<main class="cl-12 col-s-12 borderimage">
+
+<body class="body">
+
+    <div class="row">
+        <header class="col-12 col-s-12 header7">
+        <img class="header__bg" src="wedding.jpg" alt="Saint George Orthodox Russian Church"/>
+         <?php include 'Menu.php'; ?>
+        </header>
+    </div>
+
+<main class="cl-12 col-s-12 borderimage about-banner">
 	<div class="row">
 		<div class="col-10 col-s-12">
 
 			<h2>Special services</h2>
-                        
-                        <p class="second1"> 
+
+                        <p class="second1 about-banner__text">
                             Besides our main services you can also request special Services of Need:<br>
 <ul class="ul2">
                          <li class="li2">   <a href="#wedding">Marriage</a><li>
@@ -44,7 +41,7 @@ var xmlHttp;function loadCalendar2(mm,dd,yy,dt,hh,ll,tt,ss){xmlHttp=null;if(wind
                               <li class="li2">   <a href="#blessing">Home Blessing</a><li>
                             </ul>
                   </p>
-			
+
 
 	</div>
 
@@ -55,17 +52,17 @@ var xmlHttp;function loadCalendar2(mm,dd,yy,dt,hh,ll,tt,ss){xmlHttp=null;if(wind
 include 'menu1.php';
     ?>
          </div>
-  
+
         </div>
-    <div class ="row">
+    <div class ="row about-banner about-banner--margin">
          <div class="col-12 col-s-12">
-        
-        <div class="container4">
-            
+
+        <div class="container4 about-banner__text">
+
             <h2 id="wedding" style="text-align:left">Marriage</h2>
-        
-            <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.jpeg" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>  
-            
+
+            <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.jpeg" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
+
             The marriage service in the Orthodox Church begins with the words, "Blessed is the Kingdom, of the Father and of the Son and of the Holy Spirit, now and ever and unto the ages of ages. Amen." This exclamation emphasizes the seriousness of marriage, and also the goal of marriage. According to the church canons, those Orthodox Christians who marry outside the Church are deprived of the sacraments of the Church. Some people find this shocking; they feel the Church is being too harsh. But the question is: What gives validity to marriage? From a spiritual standpoint, what gives meaning to a marriage? Unlike the wedding ceremonies in most non-Orthodox churches, marriage in the Orthodox Church is not a contract—a legal agreement with the exchange of vows or promises— between two people. Rather, marriage is the setting up, by two people, of a miniature church, a family church, wherein people may worship the true God and struggle to save their souls. It is also a family church that is in obedience to Christ's Church. As Saint Basil the Great says, it is natural to marry, but it must be more than natural; it must be a yoke, borne by two people under the Church.<br><br>
 
 Thus we see that in New Testament times the focus of marriage was switched from a primary purpose of producing children, to a primary purpose of providing a way for human beings to save their souls. The wedding ceremony itself is filled with rich symbolism that makes this whole aspect of marriage very clear.<br><br>
@@ -76,7 +73,7 @@ We know that every organization, every institution—whether it be the Church, a
 This does not means that he is superior to his wife. In Christ's sight, all are equal; there is neither male nor female. In fact, marriage is a partnership of equals. Let there be no mistake: there is no room for chauvinism of any kind in Orthodoxy. Nor does being the head give a husband any kind of dictatorial, tyrannical, arbitrary, or absolute authority over his wife and children. But, as with every position of importance, certain responsibilities go with this one, and they are very heavy, very difficult, but also very challenging and potentially creative responsibilities.<br><br>
 <b>The Responsibilities of the Wife</b><br>
 <i>Saint Paul says, Wives, submit yourselves unto your own husbands, as unto the Lord ... (Eph. 5:22, 24)</i><br>
-  A wise wife will encourage her husband to be a leader, a real man, a true man, faithful to his divinely ordained nature; she will not try to take on the position of authority herself. Psychologists tell us that the anger a woman feels towards a man who has allowed her to take over the leadership of the family is the deepest anger of all. <br><br>         
+  A wise wife will encourage her husband to be a leader, a real man, a true man, faithful to his divinely ordained nature; she will not try to take on the position of authority herself. Psychologists tell us that the anger a woman feels towards a man who has allowed her to take over the leadership of the family is the deepest anger of all. <br><br>
 
 <b> Characteristics of a Successful Marriage</b><br>
 Experience tells us that two people get married and immediately begin to discover how very different they are. The fact is, we don't really even begin to know ourselves until we are married. We live too close to ourselves. It really does take someone else to help us to see ourselves as we really are. One of the fringe benefits of a good marriage is that one acquires a built-in psychiatrist: a good spouse who cares enough to listen without having to be paid for it! We know that many emotional illnesses are a result of a person having some inner burden weighing on him which he had never been able to really share with someone else. In a good marriage, husband and wife share their burdens with one another, and this sharing is without reservation, without having to worry about how the other person will react, without having to keep up a front.<br><br>
@@ -87,30 +84,30 @@ Experience tells us that two people get married and immediately begin to discove
 2. <i>Forgiveness.</i> <br>Forgiveness is essential for a happy marriage. When couples ask me, "Do you think our marriage can survive?" my answer is always, "Yes, providing you are willing to forgive each other." And this forgiveness should not be just after a major crisis in a family. It should be every single day. In a successful marriage, a husband and wife are constantly asking forgiveness of each other. When we don't do this, wounds don't get healed. We grow apart from each other. We grow cold towards one another, and we don't obtain the blessings that God sends down on husbands and wives that mutually forgive one another.<br><br>
 
 3. <i>Time.</i><br> A successful marriage takes time. It does not happen overnight. It must grow. It is a long and difficult process; like all good things in life, it comes through considerable effort and struggle. Those of you not yet married, or on the verge of marriage, should remember this: we live in a society of instantaneous gratification—we want what we want, when we want it, and that when is now. And this impatience on our part has had a very destructive effect on marriages, even in the Orthodox Church. If we have no patience with each other, and are not willing to give many years to working out a successful marriage, then our marriage is doomed.<br><br>
-       <b>The Rite:</b><br> Two separate services, betrothal and crowning. Betrothal is relatively short containing a set of petitions and three prayers. Characterized by the putting on of the rings, it signifies the couple's voluntary pledge to enter marriage and to live together in faith, harmony, truth, and love. Crowning is longer and more complex with petitions, several prayers, two scripture readings, joining of hands, partaking of blessed wine from the common cup, and a solemn joyous procession. It is culminated with the actual crowning. Readings- Eph. 5.20-33, John 2.1-11.<br><br>    
+       <b>The Rite:</b><br> Two separate services, betrothal and crowning. Betrothal is relatively short containing a set of petitions and three prayers. Characterized by the putting on of the rings, it signifies the couple's voluntary pledge to enter marriage and to live together in faith, harmony, truth, and love. Crowning is longer and more complex with petitions, several prayers, two scripture readings, joining of hands, partaking of blessed wine from the common cup, and a solemn joyous procession. It is culminated with the actual crowning. Readings- Eph. 5.20-33, John 2.1-11.<br><br>
            <b>Days When Marriage Is Not Permitted:</b><br>
 Marriages are not performed on fast days or during fasting seasons; these include the Great Lent and Holy Week, August 1-15, August 29 (Beheading of St. John the Baptist), September 14 (Exaltation of the Holy Cross), and December 13-25. Nor are marriages celebrated on the day before and the day of a Great Feast of the Lord, including Theophany (January 5 and 6), Pascha, Pentecost, and Christmas (December 24 and 25).<br><br>
            Canonical and theological reasons preclude the Orthodox Church from performing the Sacrament of Marriage for couples where one partner is Orthodox and the other partner is a non-Christian.<br>
-           
+
            <b><i><a href="" style="text-decoration:none">Marriage application form</a></i></b><br><br>
            </p>
              <h2 id="moleben" style="text-align:left">Prayer of Supplication/Molieben</h2>
-              
-<div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.png" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div> 
+
+<div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images.png" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
 Molieben (from Church Slavonic Mol'ba - prayer, supplication) is a short liturgical service usually centered on a particular need or occasion: the new year, a journey, an illness, an act of thanksgiving, etc. It may be addressed to Christ, the Mother of God, or to saints. Its general structure is that of Matins, and it can be served either by request of the faithful or by decision of the parish Priest.<br><br>
 
-The Church asks us to "pray without ceasing" - Prayer is the life of the Church and the life of each one of us, members of the Church. And because Christ came to redeem and to sanctify the totality of our life, no part of that life, no human need, no occasion is excluded from the Church's prayer. The Molieben, thus, is the extension of the Church's prayer, of Christ's redeeming grace to all aspects and realities of our life. "...knock and it will be opened to you." --we are called constantly to knock at the doors of God's mercy and our faith assures us that God hears us and is with us. <br><br> 
-        
-             
+The Church asks us to "pray without ceasing" - Prayer is the life of the Church and the life of each one of us, members of the Church. And because Christ came to redeem and to sanctify the totality of our life, no part of that life, no human need, no occasion is excluded from the Church's prayer. The Molieben, thus, is the extension of the Church's prayer, of Christ's redeeming grace to all aspects and realities of our life. "...knock and it will be opened to you." --we are called constantly to knock at the doors of God's mercy and our faith assures us that God hears us and is with us. <br><br>
+
+
              <h2 id="funeral" style="text-align:left">Funeral and Memorial Service/Pannyhida</h2>
-                 
-            
-             
+
+
+
 <h3>FUNERALS AND PANNYHIDAS</h3>
 <i>by priest Sergei Sveshnikov</i><br>
 
 <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="images (3).jpeg" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
-     
+
 <b>The final hours before death</b></br>
 The leaving behind of the earthly life full of suffering, and the translation into eternity is the
 most solemn moment in the life of any Christian. However, friends and relatives, sometimes
@@ -177,11 +174,11 @@ duty of every priest, the fulfillment of which is far more important than any su
 <b><i><a href="directive.pdf" style="text-decoration:none">Advance Funeral Directive Form</a></i></b><br><br>
 
                  <h2 id="baptism" style="text-align:left;">Baptism</h2>
-               
+
                      <h3>THE MEANING OF THE CHRISTIAN BAPTISM</h3>
 <i>St. Nektarios Greek Orthodox Church</i><br>
 
-      <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="orthodox-christmas-clipart-angel2.gif" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>             
+      <div class = "col-2 col-s-2" style="float:left;"><img class="imggif" src="orthodox-christmas-clipart-angel2.gif" alt="St. George" style="height:auto; width:100%; float:left; padding:10px"></div>
     Jesus teaches that to enter His Kingdom, we must be
 baptized by “water and the Holy Spirit” (John 3:5) Our
 entrance into the Kingdom is an entrance into the life of
@@ -298,9 +295,9 @@ candidate’s hair is cut. Hair, in the Biblical story of
 Samson is equated with strength; thus the hair offered
 stands for all the person’s strength and potentials given
 over to God.<br><br>
-                    
-                 
-                 
+
+
+
                  <b><i><a href="bapt-e.pdf" style="text-decoration:none">Baptism request form</a></i></b><br>
               <h2 id="blessing" style="text-align:left;">Home Blessing</h2>
          <h3>ON THE BLESSING OF HOMES ON
@@ -385,7 +382,7 @@ come the ministers of the altar–people very
 much like the rest of us, who also must take
 care of their families, and to whom petrol is
 dispensed only for money, just like to all of us.
-Thus, it is customary to make a donation to the 
+Thus, it is customary to make a donation to the
 clergy for their time and work. The amount of
 this donation is determined solely by each
 family’s individual circumstances and
@@ -420,8 +417,8 @@ important, but it is equally as important to find
 for them a proper time on a different day, or to
 ensure in advance that the priest has time after
 the blessing of your home.<br><br>
-        
-        </div>      
+
+        </div>
         </div>
     </div>
 </main>
@@ -434,4 +431,4 @@ include 'footer.php';
 
 </body>
 
-</html> 
+</html>
